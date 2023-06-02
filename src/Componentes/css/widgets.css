@@ -1,0 +1,27 @@
+.cont-Widgets{
+    margin-top: 100px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.containerTarg{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.titleWid{
+color: #29314C;
+}
+
+.titleMeters{
+    color: #29314C;
+}

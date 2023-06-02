@@ -1,25 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Widgets from './Componentes/WidgetIndicator'; 
+import React from 'react';
+import DashIndicators from './Componentes/DashIndicators';
+import HeaderApp from './Componentes/Header';
+import Targets from './Componentes/Targets';
+import TablaFirebase from './Componentes/Tabla';
 
-function App() {
+
+const App = () => {
+  const progressValue = 100;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="cont-body">
+      <HeaderApp/>
+      <Widgets/>
+      <DashIndicators/>
+      
     </div>
   );
-}
+};
 
 export default App;

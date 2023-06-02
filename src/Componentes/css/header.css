@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+    background: #29314C; /* Color de fondo */
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    /* O puedes usar una imagen de fondo */
+    /* background: url('ruta/de/la/imagen.jpg'); */
+  }
+  .titleHeader{
+    color: white;
+  }
+  
